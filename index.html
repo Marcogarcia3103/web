@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(58, 27, 27, 0.5)), url('') no-repeat center center;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            padding: 100px 0;
+            text-align: center;
+        }
+        .anime-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Enciclopedia de la IA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#IA">Tipos de IA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#MasPopular">IA mas popular</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="inicio" class="hero">
+        <div class="container">
+            <h1 class="display-4">Bienvenidos a la Enciclopedia de la IA</h1>
+            <p class="lead">¡Actualizate!, ¿Estás al tanto de las nuevas IA?</p>
+            <img src="Img/Robot Tesla.png">
+        </div>
+    </div>
+
+    <section id="IA" class="py-5">
+        <div class="container">
+            <h2 
+            style="font-size: 110px;"
+            class="text-center">IA más Populares</h2>
+            
+            <div class="row text-center mt-4">
+                <div class="col-md-4">
+                    <h4>Generative Pre-trained Transformer</h4>
+                    <p>Tu fuente a las dudas mas complejas que puedas tener en tu día.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Google DeepMind</h4>
+                    <p>¡IA que te acompaña día a día mediante tu celular!</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Procesamiento de lenguaje natural (PLN)</h4>
+                    <p>Ten tu asistente personal desde casa, donde puedes controlar todo dispositovo electronico</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="MasPopular" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">IA mas Populares</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card anime-card">
+                        <img src="Img/ChatGPT_logo.svg.png" class="card-img-top" alt="Anime 1">
+                        <div class="card-body">
+                            <h5 class="card-title">ChatGPT</h5>
+                            <p class="card-text">ChatGPT: Tu compañero inteligente para conversaciones y creación de contenido.</p>
+                            <a href="ChatGPT.html" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card anime-card">
+                        <img src="Img/t_in-depth-analysis-of-the-google-ai-gemini-logo-a-professional-design-perspective9549.logowik.com.webp" class="card-img-top" alt="Anime 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Gemini</h5>
+                            <p class="card-text">Gemini: La inteligencia artificial avanzada que entiende y crea con precisión.</p>
+                            <a href="Gemini.html" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card anime-card">
+                        <img src="Img/Alexa_Logo_RGB_BLUE.webp" class="card-img-top" alt="Anime 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Alexa</h5>
+                            <p class="card-text">Alexa: Tu asistente inteligente que hace la vida más fácil con solo tu voz.</p>
+                            <a href="Alexa.html" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
